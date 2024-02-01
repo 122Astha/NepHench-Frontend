@@ -1,0 +1,39 @@
+{
+    "expo": {
+        "name": "nephench",
+        "slug": "nephench",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "scheme": "com.example.NepHench",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "android": {
+            "package": "the.contacts.adder",
+            "permissions": [
+                "WRITE_CONTACTS",
+                "READ_CONTACTS"
+            ]
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "808ab057-a4f7-4d98-81f7-fb1ae96be7ba"
+            }
+        },
+
+        "owner": "astha122"
+    }
+}
